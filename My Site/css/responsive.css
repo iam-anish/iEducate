@@ -1,0 +1,120 @@
+
+@media only screen and (max-width: 1100px){
+    .textbig{
+        font-size: 35px;
+    }
+    .textsmall{
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 1010px){
+    .firstsection{ 
+        height: 70vh;
+    }
+    .textbig{
+        font-size: 30px;
+    }
+    .textsmall{
+        font-size: 15px;
+    }
+    .nav-list{
+        width: 70%;
+    }
+    .nav-list li a{
+        padding: 3px 6px;
+    }
+    .section{
+       max-width: 100%;
+       padding: 20px;
+       height: 300px;
+    }
+    .contact{
+
+        height: 700px;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    
+    .navbar{
+        flex-direction: column;
+        height: 350px;
+        transition: all 0.4s ease-out;
+    }
+    .nav-list{
+        flex-direction: column;
+        text-align: center;
+        margin: 2px;
+    }
+    .rightNav{
+        width: 90%;
+        text-align: center;
+    }
+    #search{
+        margin: 10px;
+        font-size: 12px;
+        padding: 3px;
+     }
+     .nav-list li{
+        padding: 10px;
+    }
+    .btn{
+        padding: 4px 12px;
+     }
+     
+    .burger{
+        display: block;
+    } 
+    .h-nav-resp {
+        height: 62px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .main-box{
+        flex-direction: column-reverse;
+        width: 90%;
+    }
+    .firstsection{
+        max-width: 100%;
+    }
+    .firstClass{
+        text-align: center;
+    }
+    .secondClass{
+        margin-top: 200px;
+        width: 50%;
+        text-align: center;
+    }
+    .secondClass img{
+       height: 80px;
+     }
+    .section{
+        height: 500px;
+        flex-direction: column-reverse;
+        max-width: 95%;
+    } 
+    .paras{
+        padding: 0px;
+    }
+    .form{
+        max-width: 82%;
+    }
+    .text-footer{
+        padding: 10px 0px;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .section{
+        height: 670px;
+    } 
+    .thumbnail img{
+        height: 180px;
+    }
+    .paras{
+        text-align: center;
+    }
+}
